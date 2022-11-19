@@ -4,9 +4,9 @@ on: push
 
 jobs:
   build:
-    runs-on:
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
       - name: Run a simple github action
-        run: echo "this workflow run successfully for this particular action"
+        run: echo "This workflow ran successfully for this particular action"
