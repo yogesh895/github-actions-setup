@@ -1,9 +1,10 @@
 name: First Workflow
+
 on: push
 
 jobs:
   build:
-    run-ons:
+    runs-on:
 
     steps:
       - uses: actions/checkout@v3
