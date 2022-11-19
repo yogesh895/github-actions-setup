@@ -1,0 +1,11 @@
+name: First Workflow
+on: push
+
+jobs:
+  build:
+    run-ons:
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a simple github action
+        run: echo "this workflow run successfully for this particular action"
